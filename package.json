@@ -1,0 +1,21 @@
+{
+  "name": "wishlist",
+  "version": "1.0.0",
+  "description": "Lista de desejos de julinato",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ext js,graphql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.24.0",
+    "dotenv": "^9.0.2",
+    "graphql": "^15.5.0",
+    "graphql-import": "^0.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
